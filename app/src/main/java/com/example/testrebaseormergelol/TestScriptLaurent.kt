@@ -4,7 +4,8 @@ package com.example.testrebaseormergelol
     private lateinit var nameOfFood:String
 
     fun main(){
-        nameOfFood="Pizza"
+        nameOfFood="Lasagnas"
+        println("coucou j'ai modifié le code de Laurent")
         for (i in 1..7){
             if(i <=4){
                 println("$nameOfFood - $i")
